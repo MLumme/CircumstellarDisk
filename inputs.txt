@@ -1,0 +1,40 @@
+#######################################################
+#Domain parameters
+#######################################################
+#grid sizes, radial, height and azimuthal
+100 
+100
+50
+#inner and outer radii of dust-containing domain
+10  #AU
+100 #AU
+#maximum height of domain, star will be in midpoint
+100 #AU
+#######################################################
+#Disk parameters 
+#######################################################
+#scale radius, scale height
+100  #AU
+10   #AU
+#disk mass
+3e-5 #M_sol
+#opacity
+100  #cm**2/g
+#single scattering albedo
+0.6
+#######################################################
+#Star and photon parameters, photon packet count
+#######################################################
+#Spectral luminosity
+6.93322e11 #W/Hz
+#Photon packets
+100
+#photon wavelength
+1.0 #micron
+#######################################################
+#Observer parameters
+#######################################################
+#Inclination
+90.0 #deg
+#"detector" number of bins in one dimension
+150 #px
